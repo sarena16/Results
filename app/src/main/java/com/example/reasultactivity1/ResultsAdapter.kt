@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.memorygame.Result
 import kotlinx.android.synthetic.main.item_result.view.*
-
+//
 class ResultsAdapter(private val resultsList: List<Result>) : RecyclerView.Adapter<ResultsAdapter.ResultViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ResultViewHolder {
