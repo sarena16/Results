@@ -6,17 +6,18 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/tvTestName"
+        android:id="@+id/textViewScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test Name"
         android:textSize="18sp"
+        android:textColor="@android:color/black"
         android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/tvDate"
+        android:id="@+id/textViewCompletionTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date: 01-01-1970"/>
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
 
 </LinearLayout>
